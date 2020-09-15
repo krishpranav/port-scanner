@@ -6,3 +6,9 @@ a simple java code for scanning open ports on a website
 - cd port-scanner
 - sudo chmod +X *
 - java portscanner.java 
+
+# Steps To Run This Tool On Mac:
+- git clone https://github.com/krishpranav/port-scanner
+- cd port-scanner
+- sudo chmod +x *
+- java portscanner.java 
