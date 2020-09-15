@@ -4,7 +4,7 @@ a simple java code for scanning open ports on a website
 # Steps To Run This Tool On Linux:
 - git clone https://github.com/krishpranav/port-scanner
 - cd port-scanner
-- sudo chmod +X *
+- sudo chmod +x *
 - java portscanner.java 
 
 # Steps To Run This Tool On Mac:
