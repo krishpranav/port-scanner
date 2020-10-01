@@ -16,3 +16,6 @@ a simple java code for scanning open ports on a website
 # HOW TO SCAN OPEN PORTS ON A WEBSITE 
 - use this command
 - java portscanner.java 127.0.0.1
+
+# Reference
+<img src="port-scanner.png">
