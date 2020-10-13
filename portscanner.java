@@ -1,19 +1,20 @@
-//a simple java tool for scanning open ports on a website
+//a simple java tool for scanning ports on a website
+//tool name: port-scanner
+//language used: java
 //tool author: krishpranav
-//tool name: portscanner
 
-import java.net.*;
-class portscanner{
-	public static void main(String arg[]){
-		Socket s;
+//imports
+import java.net*;
 
-		for(int i=1;i<65536;i++){
-			try{
-				s=new Socket(arg[0], i);
-				System.out.println("The Port " +i + " Is Open");
-			}catch(Exception e){
+public static void main(String arg[]){
+	s=new Socket;
 
-			}
+	for(int i=1;i<65536;i++){
+		try{
+			s=new Socket(arg[0], i);
+			System.out.println("The Port " +i + " Is Open");
+		}catch(Exception e){
+
 		}
 	}
 }
