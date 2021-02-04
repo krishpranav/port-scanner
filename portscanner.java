@@ -4,16 +4,15 @@
 //tool author: krishpranav
 
 //imports
-import java.net*;
 
 public static void main(String arg[]){
 	s=new Socket;
-
+	
 	for(int i=1;i<65536;i++){
 		try{
 			s=new Socket(arg[0], i);
-			System.out.println("The Port " +i + " Is Open");
-		}catch(Exception e){
+			System.out.println("The Port " +i + "Is Open")
+		}catch (Exception e){
 
 		}
 	}
